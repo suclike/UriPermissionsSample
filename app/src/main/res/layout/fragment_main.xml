@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/content_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:showIn="@layout/activity_main"
+        tools:context="trainings.home.com.testinguriimageloading.ViewPagerFragment">
+
+        <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F7981D" >
+
+            <android.support.v4.view.PagerTabStrip
+                    android:id="@+id/viewPager_tabs_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_gravity="top"
+                    android:gravity="center"
+                    android:background="#66A8A3"
+                    android:tabStripEnabled="false"
+                    android:textColor="?android:attr/textColorPrimaryInverse" />
+            
+        </android.support.v4.view.ViewPager>
+    
+</RelativeLayout>
